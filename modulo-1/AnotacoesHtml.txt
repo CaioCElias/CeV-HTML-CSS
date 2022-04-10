@@ -1,0 +1,14 @@
+O que cada projeto fala:
+
+ex001 → Básico HTML
+ex002 → Parágrafos/Quebra de Linha/Caracteres especiais/Emoji
+ex003 → Adicionar imagem
+ex004 → Favicon
+ex005 → (NULO)
+ex006 → Hierarquia de títulos
+ex007 → (NULO)
+ex008 → Negrito/Italico/Marca Texto/Riscar/Sublinhar/Texto em cima & embaixo
+ex009 → Listas Ordenadas & Não-ordenadas/Termos & Descrições de termos (SEO)
+ex010 → Links/Descrição de termo (no próprio texto)/Download
+ex011 → Imagens que adaptam/Play de aúdio
+ex012 → Hospedagem de vídeos

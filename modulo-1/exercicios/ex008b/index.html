@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citações e Códigos</title>
+</head>
+<body>
+    <!--A tag "pre" escreve na tela exatamente como está digitado, considerando espaços e tudo mais-->
+    <!--A tag "code" deixa os pixels das letras de maneira uniforme, dando destaque e melhorando a visualização-->
+    <h1>Códigos</h1>
+    <p>Para escrever na tela, em python, utilize <code>print('Texto')</code>.</p>
+    <p>Um programa em python:
+        <pre>
+            <code>
+num = int(input('Digite um número: '))
+if num % 2 == 0:
+        print('O número é PAR')
+    else:
+        print('O número é ÍMPAR')
+            </code>
+        </pre>
+    </p>
+
+    <!--Quando uma citação for muito importante, use a TAG "q"-->
+    <p>Isso vai deixar <q>a citação</q> entre aspas duplas.</p>
+
+    <!--Para fazer uma grande citação, utilizamos a TAG "blockquote", que deslocará todo o texto-->
+    <!--E para complementar, utilizar o parametro cite="(link)" melhorará os mecanismos de SEO-->
+    <blockquote cite="sei la">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam deleniti vitae itaque quasi provident asperiores soluta quos esse cumque atque ut numquam nemo impedit, rem ratione? Dicta eaque eligendi nisi.
+    </blockquote>
+
+    <!--Para deixar um "comentário" para mostrar o significado de uma silga, use a TAG "abbr"-->
+    <p>Pq dai você pode adicionar uma pequena descrição <abbr title="isso aqui">desse jeito</abbr>.</p>
+
+    <!--É possível inverter o texto usando a TAG "bdo"-->
+    <p><bdo dir="rtl">O texto fica desse jeito</bdo></p>
+</body>
+</html>

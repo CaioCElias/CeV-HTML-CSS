@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospedagem de vídeos</title>
+</head>
+<body>
+    <h1>Vídeos hospedados localmente</h1>
+
+    <!--Vídeos hospedados no site consomem muito tráfego de dados, o recomendado é incorporar vídeos externos-->
+    <video width="560" poster="./img/limoes-capa.png" controls>
+        <source src="./midia/meu-video.mp4" type="video/mp4">
+        <source src="./midia/meu-video.m4v" type="video/mp4">
+        <source src="./midia/meu-video.webm" type="video/webm">
+        <source src="./midia/meu-video.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+    <h1>Vídeo incorporado do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0JHdKzRVkTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Vídeo incorporado do vimeo</h1><!--Ótima opção para vídeos que tem que manter privados, mas é pago-->
+    <iframe src="https://player.vimeo.com/video/515111432?h=f3a1a1c263&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

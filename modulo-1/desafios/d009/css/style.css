@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+    background-color: #393939;
+}
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.geral {
+    display: flex;
+    justify-content: center;
+}

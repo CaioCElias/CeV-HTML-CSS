@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*
+NÃO PODE TER 2 ELEMENTOS COM O MESMO ID
+id = #
+*/
+
+/*
+PODE TER 2 ELEMENTOS COM A MESMA CLASSE
+class = .
+*/
+
+body {
+    background-color: #A4EAAB;
+}
+
+h1 {
+    color: #47664A;
+}
+
+h1#principal {
+    background-color: #47664A;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: #29662F;
+}

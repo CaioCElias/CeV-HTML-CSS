@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando Fontes Baixadas</title>
+    <style>
+        /* Importar arquivos de fonte; otf = opentype ttf = truetype*/
+        @font-face {
+            font-family: 'filosofia'; /*Defina um nome*/
+            src: url(./fonts/Philosopher-Regular.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        h1, p {
+            font: normal normal 3em 'filosofia';
+        }
+    </style>
+</head>
+<body>
+    <h1>Usando fontes baixadas</h1>
+    <p>NÃO QUERO MAIS USAR LOREM IPSUM!</p>
+</body>
+</html>

@@ -1,3 +1,5 @@
 O que cada projeto fala:
 
 ex001 → Degradê/Algumas tags CSS
+ex002 → Configurar estilo das fontes
+ex003 → Importando fontes

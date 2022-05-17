@@ -1,0 +1,23 @@
+@charset "UTTF-8";
+
+div {
+    display: inline-block;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+}
+
+button:hover {
+    background-color: #ffa3a3;
+}
+
+#esconde > #texto-escondido {
+    display: none;
+}
+
+#esconde:hover > #texto-escondido {
+    display: block;
+    color: red;
+}
